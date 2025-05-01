@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="/index.css/weather.css">
+</head>
+<body>
+<main>
+    <div class="weather">
+            <form id="weather-form">
+               <input  type="search" placeholder="Enter a city..." class="search-input" id="search-input">
+               <input type="submit" value="search" class="search-button" id="search-button">
+            </form>
+        <div class="current-weather">
+            <div>
+                    <h1 class="current-city" id="current-city">Kumasi</h1>
+                    <!-- <p id="temperature"></p> -->
+                <p class="current-details">
+                    <span id="current-date"></span>, moderate rain 
+                    <br>
+                    Humidity: <strong>87%</strong>, Wind: <strong> 7.2km/h</strong>
+                </p>
+            </div>
+                <div>
+                    <span class="emoji">☀️</span><span class="value">14</span><span id="temp">&deg;c</span>
+                </div>
+        </div>
+        <div>
+            <ul>
+                <li>Sun⛅ <br>
+                   <strong>14&deg;</strong> - 18&deg;
+                </li>
+                <li>Mon⛅<br>
+                   <strong>14&deg;</strong> - 18&deg;
+                </li>
+                <li>Tue⛅<br>
+                   <strong>14&deg;</strong> - 18&deg;
+                </li>
+                <li>Wed⛅<br>  
+                   <strong>14&deg;</strong> - 18&deg;
+                </li>
+                <li>Thu⛅<br>
+                   <strong>14&deg;</strong> - 18&deg;
+                </li>
+            </ul>
+        </div>
+        <footer>
+            This project was coded by 
+            <a href="">Iman</a> and is 
+            <a href="">on GitHub</a> and 
+            <a href="">hosted on Netlify</a>
+        </footer>
+    </div>
+</main>
+
+</body>
+
+<script src="scr.js/weather.js"></script>
+</html>
